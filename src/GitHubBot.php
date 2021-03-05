@@ -74,7 +74,7 @@ class GitHubBot
                 $this->message .= "⚙️ <b>{$count}</b> new {$noun} to <b>{$this->payload->repository->name}:{$this->payload->repository->default_branch}</b>\n\n";
                 foreach ($this->payload->commits as $commit) {
                     $commitId = substr($commit->id, -7);
-                    $this->message .= "<b>📄Changelog📄/n</b> <a href=\"{$commit->url}\">{$commitId}</a>\nExtended Description:{$commit->message}\n by <i>{$commit->author->name}</i>\n";
+                    $this->message .= "<b>📄Changelog📄\n</b> <a href=\"{$commit->url}\">{$commitId}</a>\nExtended Description:{$commit->message}\n by <i>{$commit->author->name}</i>\n";
                 }
                 $this->message .= "\nPushed by : <b>{$this->payload->pusher->name}</b>\n";
                 break;
