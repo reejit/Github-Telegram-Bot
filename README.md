@@ -1,4 +1,4 @@
-<h1 align="center"> Github Telegram Bot</h1> <br>
+<h1 align="center"> Github Telegram Bo</h1> <br>
 <p align="center">
   <a href="https://test.com">
     <img src="https://i.ibb.co/SxLvgjs/Bot-banner.png" alt="logo" width="190" border="0">
